@@ -1,0 +1,66 @@
+html{
+    background-color: black;
+}
+body{
+    background: none;
+    width: 400px;
+    align-content: center;
+    margin: 60px auto ; 
+}
+
+.post{
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    background: white;
+	width: 400px;
+	height: auto;
+	margin: auto;
+    position: relative;
+    border: 5px;
+}
+.header{
+    display: flex;
+    padding: 5px;
+    position: relative;
+}
+.logo{
+    height: 2em;
+    width: 2em;
+}  
+.header-usuario{
+    font-size: small;
+}
+.header-option{
+    position: absolute;
+    right: 0;
+}
+button{
+    border: none;
+    background-color: rgba(255, 0, 0, 0);
+    font-size: 25px;
+    padding: 3px 15px 0px 3px;
+}
+.img2{
+    height: 25em;
+    width: 25em;
+}
+.post-body{
+    position: relative;
+    padding: 7px;
+    text-align: justify;
+}
+.post-list{
+    display: flex;
+}
+.save{
+    position: absolute;
+    right: 0;
+    }
+.likes{
+    font-size: 10px;
+    margin: 0%;
+}
+.description{
+    font-size: 10px;
+    margin: 0;
+}
